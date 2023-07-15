@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import UserTag from '../components/UserTag'
+import UserTag from '../UserTag'
 import { useRouter } from 'next/navigation'
 
 function PinItem({pin}) {
