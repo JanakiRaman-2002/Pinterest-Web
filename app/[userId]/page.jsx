@@ -5,7 +5,7 @@ import app from '../Shared/firebaseConfig'
 import { getFirestore } from 'firebase/firestore'
 import { doc, getDoc } from "firebase/firestore";
 import UserInfo from '../components/UserInfo'
-import PinList from '../Pins/PinList'
+import PinList from '../components/Pins/PinList'
 import { collection, query, where, getDocs } from "firebase/firestore";
 
 
